@@ -16,4 +16,4 @@ jobs:
     - name: Execute Gradle build
       run: ./gradlew build
     - name: Check dirs
-      run: ls -al; cd .gradle; ls -al; cd ../app/; ls -al; cd build; ls -al;
+      run: ls -al; cd .gradle; ls -al; cd ../app/; ls -al; cd build/outputs; ls -al;
