@@ -8,4 +8,4 @@ jobs:
       with:
         project-path: "."
         output-path: MessengerPro.apk
-        browserstack-upload: true
+        browserstack-upload: false
