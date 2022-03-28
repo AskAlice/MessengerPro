@@ -15,3 +15,5 @@ jobs:
     
     - name: Execute Gradle build
       run: ./gradlew build
+    - name: Check dirs
+      run: cd app/build/outputs/apk/release; ls -al;
